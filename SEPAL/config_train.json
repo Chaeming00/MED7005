@@ -1,0 +1,12 @@
+{
+    "dataset_path": "/home/guest3/projects/SEPAL/HEST/bench_data/CCRCC/splits/train_0.csv",
+    "batch_size": 32,
+    "epochs": 50,
+    "lr": 0.00999132346859734,
+    "shuffle": true,
+    "optimizer": "SGD",
+    "momentum": 0.9,
+    "average_test": true,
+    "cuda": "6",
+    "exp_name": "sepal_train_0"
+}

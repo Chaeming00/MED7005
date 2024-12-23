@@ -1,0 +1,24 @@
+{
+    "dataset": "HEST_dataset",          
+    "train_path": "/home/guest3/projects/SEPAL/HEST/bench_data/CCRCC/splits/train_0.csv",
+    "gene_files": {
+        "var": "/home/guest3/projects/SEPAL/HEST/bench_data/CCRCC/var_50genes.json"
+    },
+    "cell_min_counts": 700,  
+    "cell_max_counts": 100000,  
+    "gene_min_counts": 1000,  
+    "gene_max_counts": 1000000,  
+    "min_exp_frac": 0.01,     
+    "min_glob_exp_frac": 0.60,
+    "top_moran_genes": 256,
+    "wildcard_genes": "None",   
+    "combat_key": "patient",       
+    "random_samples": -1,   
+    "plotting_slides": "",  
+    "plotting_genes": "",   
+    "patch_scale": 1.0,      
+    "patch_size": 224,       
+    "force_compute": false,    
+    "prediction_layer": "c_d_deltas",
+    "n_hops": 1
+}
